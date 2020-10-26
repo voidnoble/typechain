@@ -1,0 +1,12 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "repository": "https://github.com/voidnoble/typechain",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc index.ts"
+  }
+}
