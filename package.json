@@ -6,7 +6,10 @@
   "repository": "https://github.com/voidnoble/typechain",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc index.ts"
-  }
+    "start": "tsc-watch --build tsconfig.json --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {}
 }

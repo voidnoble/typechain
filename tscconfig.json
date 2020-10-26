@@ -1,9 +1,0 @@
-{
-  "compileOptions": {
-    "module": "commonjs",
-    "target": "ES2015",
-    "sorceMap": true
-  },
-  "include": ["index.ts"],
-  "exclude": ["node_modules"]
-}
