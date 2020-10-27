@@ -9,7 +9,8 @@
     "start": "tsc-watch --build tsconfig.json --onSuccess \"node dist/index.js\""
   },
   "devDependencies": {
-    "tsc-watch": "^4.2.9"
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.0.5"
   },
   "dependencies": {
     "crypto-js": "^4.0.0"
